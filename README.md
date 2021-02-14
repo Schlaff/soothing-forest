@@ -1,1 +1,5 @@
-# soothing-forest
+This project seeks to understand the link between economic inequality and access to shade within Los Angeles County.
+
+To answer the question, two csv datasets from data.LAcounty.gov were found. The first dataset is 2017 median income data by census tract, a geographic division roughly the size of a neighborhood, in Los Angeles County. The second data set included percentage of tree canopy area by census tract block group, a subdivision of census tract, in Los Angeles county for the year 2014. In order to compare the data sets, the two were matched by identical census tract, and the values of percentage of canopy area were averaged for each census tract. It was assumed that the percentage of area under canopy cover remained constant from 2014 to 2017.
+
+The exercise found that median Income is not a good predictor of percentage of area of tree canopy coverage in Los Angeles County, but higher income of a neighborhoods in Los Angeles have a higher average of canopy coverage. In general, higher income neighborhoods in Los Angeles county are better equipped to deal with the effects of climate change compared to lower income neighborhoods, who will feel more of the consequences of climate change like the urban heat island effect. 
